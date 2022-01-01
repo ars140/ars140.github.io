@@ -1,0 +1,14 @@
+<div class="header" style="background-image:url(/assets/images/background.jpeg)">
+  {% include heading.html %}
+</div>
+<div class="masthead"></div>
+<div class="navigation">
+    {%- for item in site.data.navigation %}
+    <a href="{{ item.link }}">{{ item.name }}</a>
+    {%- endfor -%}
+    {% for item in site.data.contact %}
+    <a class="contact-icon" href="{{item.link}}">
+      <i class="{{item.icon}}"></i>
+    </a>
+    {%- endfor %}
+</div>
