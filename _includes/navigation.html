@@ -1,8 +1,7 @@
-<div class="header" style="background-image:url(/assets/images/background.jpeg)">
-  {% include heading.html %}
-</div>
 <div class="masthead"></div>
 <div class="navigation">
+  <a href="/"><b>Alexander Sieman</b></a>
+  <div class="links">
     {%- for item in site.data.navigation %}
     <a href="{{ item.link }}">{{ item.name }}</a>
     {%- endfor -%}
@@ -11,4 +10,6 @@
       <i class="{{item.icon}}"></i>
     </a>
     {%- endfor %}
+  </div>
 </div>
+<div class="header" style="background-image:url(/assets/images/background.jpeg)"></div>
