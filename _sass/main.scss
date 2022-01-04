@@ -9,7 +9,7 @@
     --body-text-color: #B3B9C5;
     --masthead-color: #1B1B1B;
     --line-sep-color: #444444;
-    --link-underline-color: #07611e;
+    --link-underline-color: #2A4A7A;
     --nav-bar-height: 55px;
     --footer-height: 48px;
     --max-page-width: 800px;
@@ -29,8 +29,11 @@ html
     text-align: center;
     background: white;
     color: #fff;
-    border-bottom: 2px solid var(--link-underline-color);
 }
+
+p {
+    text-indent: 30px;
+ }
 
 body
 {
@@ -92,12 +95,13 @@ a
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    border-bottom: none;
 }
 
 .navigation a.contact-icon
 {
     color: var(--heading-text-color);
-    padding: 7px 5px;
+    padding: 8.5px 5px;
     text-decoration: none;
 }
 
