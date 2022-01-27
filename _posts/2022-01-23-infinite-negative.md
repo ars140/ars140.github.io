@@ -9,8 +9,8 @@ What do these have in common?
 
 ## A Series of Events
 
-A couple of months ago, I showed an interesting math fact to my family (it made
-sense to bring up in the context, I promise), related to this infinite series:
+A couple of months ago, I showed an interesting math fact to my family, related
+to this infinite series:
 
 $$ S = \sum_{i=0}^{\infty} 2^i = 1 + 2 + 4 + 8 + 16 + ...$$
 
