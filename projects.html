@@ -5,7 +5,8 @@ title: Project List
 <h1>
     Project List
 </h1>
-{%- for project in site.projects -%}
+{% assign site_projects = site.projects | reverse %}
+{%- for project in site_projects -%}
     <div class="linesep"></div>
      <h2>
         <a href="{{ project.url }}">{{ project.title }}</a>

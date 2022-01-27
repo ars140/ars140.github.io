@@ -31,10 +31,6 @@ html
     color: #fff;
 }
 
-p {
-    text-indent: 30px;
- }
-
 body
 {
     margin: 0;
@@ -131,6 +127,19 @@ a
 {
     border-bottom: 2px solid var(--line-sep-color);
     margin-top: 2.5rem;
+}
+
+table, th, td {
+    border: 1px solid var(--body-text-color);
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img {
+    width: 100%;
 }
 
 .foot {
